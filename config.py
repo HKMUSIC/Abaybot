@@ -96,14 +96,14 @@ PING_IMG_URL = getenv(
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8234d704952738ebcda7f.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8d02ff3bde400e465219a.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/7645d1e04021323c21db9.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/7zvsux.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7zvsux.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
 YOUTUBE_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b7758d4e1bc32aa9fb6ec.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/60ed85638e00df10985db.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/7zvsux.jpg"
 
 
 def time_to_seconds(time):
@@ -125,6 +125,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
