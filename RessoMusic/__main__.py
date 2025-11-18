@@ -1,6 +1,9 @@
 import asyncio
 asyncio.set_event_loop(asyncio.new_event_loop())
 
+import os
+os.environ["PYROGRAM_DISABLE_UVLOOP"] = "1"
+
 import importlib
 
 from pyrogram import idle
@@ -61,5 +64,6 @@ async def init():
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(init())
+    asyncio.run(init())
+
 
